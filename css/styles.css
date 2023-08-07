@@ -413,3 +413,8 @@ body {
   align-items: center;
   gap: 15px;
 }
+
+.social-media-link: hover,
+.social-media-link: focus {
+  background-color: var(oce);
+}
