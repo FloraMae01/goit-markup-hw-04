@@ -224,7 +224,7 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* Checked */
-.section-title {s
+.section-title {
   color: var(--navyblue);
   font-size: 36px;
   line-height: 1.17;
