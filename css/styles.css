@@ -372,3 +372,14 @@ body {
 .page-header {
   border: 1px solid var(--cornflower, #e7e9fc);
 }
+
+.benefits-svg-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  width: 264px;
+  height: 112px;
+  background-color: var(--cloud); */
+}  
