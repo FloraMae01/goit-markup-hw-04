@@ -469,3 +469,9 @@ body {
   color: var(--oceancolor);
   border-color: var(--oceancolor);
 }
+
+.clients-svg {
+  fill: currentColor;
+  width: 104px;
+  height: 56px;
+}
