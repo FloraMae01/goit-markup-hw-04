@@ -426,3 +426,7 @@ body {
 .social-media-link:focus {
   background-color: var(--oceancolor);
 }
+
+.social-media-svg {
+  fill: currentColor;
+}
