@@ -476,29 +476,49 @@ body {
   height: 56px;
 }
 
-/* This is Social Media Icons Footer */
-
-.footer {
-  display: flex;
+.page-footer {
+  background-color: var(--navyblue);
+  padding: 60px 0px 60px 60px;
+  margin: 0 auto;
 }
 
-.footer-container {
+.page-footer .footer  {
   display: flex;
   flex-wrap: wrap;
-  /* align-items: flex-start; */
+  margin-top: -12px;
+  margin-left: -50px;
+  align-items: baseline;
+}
+
+.logo-link.footer {
+  margin-bottom: 20px;
+}
+
+/* This is Social Media Icons Footer */
+
+
+.footer-block {
+  margin-left: 123px;
+  margin: 12px;
+}
+
+.footer-heading {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.social-footer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  padding-top: 10px;
 }
 
 .footer-icons {
   display: flex;
   flex-wrap: wrap;
   margin-left: 120px;
-}
-
-.footer-icons-text {
-  /* display: flex;
-  flex-wrap: wrap; */
-  color: var(--whitecolor);
-  margin-top: 17px;
 }
 
 .footer-icons-list {
