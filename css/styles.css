@@ -478,15 +478,19 @@ body {
 
 /* This is Social Media Icons Footer */
 
+.footer {
+  display: flex;
+}
 
 .footer-container {
-  /* display: flex; */
-  align-items: self-start;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: flex-start; */
 }
 
 .footer-icons {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   margin-left: 120px;
 }
 
