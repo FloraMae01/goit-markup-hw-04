@@ -488,6 +488,7 @@ body {
   margin-top: -12px;
   margin-left: -50px;
   align-items: baseline;
+  padding-left: 25px;
 }
 
 .logo-link.footer {
@@ -500,7 +501,7 @@ body {
 .footer-block {
   margin-left: 123px;
   margin: 12px;
-  padding-left: 135px;
+  padding-left: 125px;
 }
 
 .footer-heading {
