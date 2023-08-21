@@ -172,6 +172,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 600px;
   background-color: var(--navyblue);
 }
 /* Checked */
@@ -270,6 +271,12 @@ body {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+}
+
+.project-card:hover {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 /* Checked */
 .benefits .description {
@@ -380,7 +387,7 @@ body {
 }
 /* Checked */
 .page-header {
-  border: 1px solid var(--cornflower, #e7e9fc);
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
 
 .benefits-svg-box {
@@ -544,10 +551,14 @@ body {
   height: 100%;
   border-radius: 50%;
   background-color: var(--iris);
-  color: var(--iris);
+  color: var(--white);
 }
 
 .social-footer .link:hover,
 .social-footer .link:focus {
   background-color: #31d0aa;
+}
+
+.social-footer .icon {
+  fill: currentColor;
 }
